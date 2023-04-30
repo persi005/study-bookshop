@@ -3,9 +3,10 @@
     "version": "1.0.0",
     "description": "A study project of a single-page application on the pure javascript",
     "main": "app.js",
+    "type": "module",
     "scripts": {
         "start": "live-server",
-        "build": "rollup"
+        "build": "rollup -c"
     },
     "repository": {
         "type": "git",
@@ -18,7 +19,9 @@
     },
     "homepage": "https://github.com/persi005/study-bookshop#readme",
     "devDependencies": {
+        "@rollup/plugin-node-resolve": "^15.0.2",
         "eslint": "^8.39.0",
-        "rollup": "^3.21.2"
+        "rollup": "^3.21.2",
+        "rollup-plugin-import-css": "^3.2.1"
     }
 }
