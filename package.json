@@ -1,0 +1,24 @@
+{
+    "name": "bookshop",
+    "version": "1.0.0",
+    "description": "A study project of a single-page application on the pure javascript",
+    "main": "app.js",
+    "scripts": {
+        "start": "live-server",
+        "build": "rollup"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/persi005/study-bookshop.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/persi005/study-bookshop/issues"
+    },
+    "homepage": "https://github.com/persi005/study-bookshop#readme",
+    "devDependencies": {
+        "eslint": "^8.39.0",
+        "rollup": "^3.21.2"
+    }
+}
