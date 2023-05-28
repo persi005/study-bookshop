@@ -17,9 +17,6 @@ export class CardList extends DivComponent {
             return this.el
         }
 
-        this.el.innerHTML = `
-            <h1>Found: ${this.parentState.list.length}</h1>
-        `
         const cardGrid = document.createElement('div')
         cardGrid.classList.add('card-list__inner')
 
